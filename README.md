@@ -21,6 +21,7 @@ macro_regime_hmm_research/
 │   ├── data_pipeline.py   # Automated data ingestion and cleaning via Yahoo Finance API
 │   └── hmm_model.py       # The Gaussian HMM architecture and feature engineering logic
 └── README.md              # Project documentation
+```
 
 ## 🧠 Methodology: The Gaussian Hidden Markov Model
 Financial time series are notoriously non-stationary. Instead of relying on static rolling averages, this project deploys a 2-State Gaussian HMM to infer latent market regimes from observable variance.
